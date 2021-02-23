@@ -12,7 +12,12 @@ public class App {
         String retazec = "a";
 
         int podiel = 2/3; // 0
-        int poDeleni = 2%3; // 2
+        System.out.println(podiel);
 
+        int poDeleni = 2%3; // 2
+        System.out.println(poDeleni);
+
+        float podielDesatinny = 2/3.0f;
+        System.out.println(podielDesatinny);
     }
 }
