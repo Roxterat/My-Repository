@@ -43,5 +43,14 @@ public class App {
             System.out.println("a je " + a);
             a--;
         }
+
+        System.out.println();
+        System.out.println("dva a tri je " + scitaj(2,3));
+
     }
+
+    static int scitaj(int a, int b) {
+        return a + b;
+    }
+
 }
