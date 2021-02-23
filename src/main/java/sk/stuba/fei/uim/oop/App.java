@@ -28,8 +28,8 @@ public class App {
         else {
             System.out.println("Nepravda");
         }
-
-        for (int a = 0; a < 5; a++) {
+        int a;
+        for (a = 0; a < 5; a++) {
             switch (a) {
                 case 1:
                     System.out.println(String.format("a je %d", a));
@@ -38,6 +38,10 @@ public class App {
                     System.out.println("else");
                     break;
             }
+        }
+        while (a > 0) {
+            System.out.println("a je " + a);
+            a--;
         }
     }
 }
