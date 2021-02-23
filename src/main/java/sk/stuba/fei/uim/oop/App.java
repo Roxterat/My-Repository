@@ -5,6 +5,7 @@ public class App {
         System.out.println("Hello world!");
 
         boolean pravda = true;
+        /*
         boolean nepravda = false;
         int celeCislo = 5;
         long celeCisloVelke = 5L;
@@ -12,7 +13,7 @@ public class App {
         double desatinneDoublePresicion = 5.5;
         char znak = 'a';
         String retazec = "a";
-
+        */
         int podiel = 2/3; // 0
         System.out.println(podiel);
 
