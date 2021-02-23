@@ -29,5 +29,15 @@ public class App {
             System.out.println("Nepravda");
         }
 
+        for (int a = 0; a < 5; a++) {
+            switch (a) {
+                case 1:
+                    System.out.println(String.format("a je %d", a));
+                    break;
+                default:
+                    System.out.println("else");
+                    break;
+            }
+        }
     }
 }
