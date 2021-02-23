@@ -4,6 +4,8 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
+        boolean pravda = true;
+        boolean nepravda = false;
         int celeCislo = 5;
         long celeCisloVelke = 5L;
         float desatinneSinglePrecision = 5.5F;
@@ -19,5 +21,13 @@ public class App {
 
         float podielDesatinny = 2/3.0f;
         System.out.println(podielDesatinny);
+
+        if (pravda) {
+            System.out.println("Pravda");
+        }
+        else {
+            System.out.println("Nepravda");
+        }
+
     }
 }
