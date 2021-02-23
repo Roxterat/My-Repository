@@ -47,6 +47,16 @@ public class App {
         System.out.println();
         System.out.println("dva a tri je " + scitaj(2,3));
 
+        System.out.println("Dlzka je: " + args.length);
+        for (int i = 0; i < args.length; i++) {
+            System.out.println(args[i]);
+        }
+
+        int[] mojePole = new int[10];
+        for (int i = 0; i < mojePole.length; i++) {
+            System.out.println(mojePole[i]);
+        }
+
     }
 
     static int scitaj(int a, int b) {
